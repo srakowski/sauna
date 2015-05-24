@@ -34,7 +34,7 @@
 		}			
 	};
 	
-	exports.init = function (element) {				
+	module.exports = function (element) {				
 		var navigator = new Navigator(element);
 		return {
 			n: navigator
