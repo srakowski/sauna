@@ -2,7 +2,7 @@
 
 	var fs = require('fs');
 	var path = require('path');
-	var rootDir = path.dirname(require.main.filename) + "\\";
+	var rootDir = path.dirname(require.main.filename) + path.sep;;
 
 	var Navigator = function (element) {
 		var self = this;
